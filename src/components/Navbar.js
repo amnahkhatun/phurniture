@@ -14,7 +14,7 @@ const Nav = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="logo" />
+            <img src={logo} width="90px" height="50px" alt="logo" />
           </Link>
           <button className="nav-toggle">
             <FaBars />
@@ -27,6 +27,7 @@ const Nav = () => {
             </li>
           })}
         </ul>
+        <CartButtons />
       </div>
     </NavContainer>
   )
