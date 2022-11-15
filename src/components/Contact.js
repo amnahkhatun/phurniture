@@ -14,14 +14,14 @@ const Contact = () => {
           </p>
           <form
             className='contact-form'
-            action='your form spree id'
-            method='POST'
+            action="https://formspree.io/f/xvoylqgb"
+            method="POST"
           >
             <input
               type='email'
               className='form-input'
               placeholder='enter email'
-              name='_replyto'
+              name='email'
             />
             <button type='submit' className='submit-btn'>
               subscribe
