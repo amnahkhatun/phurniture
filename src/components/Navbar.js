@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../assets/logo1.jpeg'
+import logo from '../assets/hero-bcg.jpeg'
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { links } from '../utils/constants'
@@ -15,7 +15,7 @@ const Nav = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} width="90px" height="50px" alt="logo" />
+            <img src={logo} className='logo' alt='app-logo' />
           </Link>
           <button className="nav-toggle" onClick={openSidebar}>
             <FaBars />
@@ -63,6 +63,12 @@ const NavContainer = styled.nav`
     svg {
       font-size: 2rem;
     }
+  }
+  .logo {
+    justify-self: center;
+    height: 45px;
+    object-fit:cover;
+    border-radius:20%
   }
   .nav-links {
     display: none;
