@@ -9,7 +9,7 @@ const CheckoutPage = () => {
   return <main>
     <PageHero title="checkout" />
     <Wrapper className="page">
-      <h3>I have been too lazy to heheehcomplete this, but I promise it will be up soon 😇</h3>
+      <h3>I have been too lazy to complete this, but I promise it will be up soon 😇</h3>
     </Wrapper>
   </main>
 }
